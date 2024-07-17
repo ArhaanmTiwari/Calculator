@@ -1,0 +1,48 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+    color: lightgreen;
+
+}
+
+div {
+    text-align: center;
+}
+
+.main_div {
+    margin: 0 auto;
+    width: 204px;
+    background-color: gray;
+    padding: 10px;
+}
+
+.main_div input {
+    margin: 2px;
+    width: 168px;
+}
+
+.main_div .number {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #DCDCDC;
+    border: 0px;
+}
+
+.main_div .symbol {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: #434343;
+    color: white;
+    border: 0px;
+}
+
+.main_div .clear {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    background-color: red;
+    color: white;
+    border: 0px;
+}

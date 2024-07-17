@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <h1>Calculator</h1>
+    <div class="main_div">
+      <div class="inputs">
+        <form>
+          <input type="number" name="first number" id="first_number" />
+          <button type="button" onclick="set_it_to_first_number()">
+            Set it to First Number
+          </button>
+          <input type="number" name="second number" id="second_number" />
+          <button type="button" onclick="set_it_to_second_number()">
+            Set it to Second Number
+          </button>
+        </form>
+      </div>
+      <div class="calculator">
+        <button class="number" id="1" onclick="one()">1</button>
+        <button class="number" id="2" onclick="two()">2</button>
+        <button class="number" id="3" onclick="three()">3</button>
+        <button class="symbol" onclick="adding()">+</button><br />
+        <button class="number" id="4" onclick="four()">4</button>
+        <button class="number" id="5" onclick="five()">5</button>
+        <button class="number" id="6" onclick="six()">6</button>
+        <button class="symbol" onclick="subtract()">-</button><br />
+        <button class="number" id="7" onclick="seven()">7</button>
+        <button class="number" id="8" onclick="eight()">8</button>
+        <button class="number" id="9" onclick="nine()">9</button>
+        <button class="symbol" onclick="multiplying()">x</button><br />
+        <button type="button" class="clear" onclick="clearInput()">C</button>
+        <button class="number" id="0" onclick="zero()">0</button>
+        <button class="symbol" onclick="get_total()">=</button>
+        <button class="symbol" onclick="dividing()">/</button>
+        <p id="total"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
